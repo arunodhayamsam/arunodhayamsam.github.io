@@ -35,6 +35,15 @@ body::before {
   }
 }
 
+/* New addings */
+
+@media only screen and (max-width: 767px) {
+  body::before {
+    background-attachment: scroll; /* or unset */
+    background-position: center top; /* Adjust as needed */
+  }
+}
+
 a {
   color: #18d26e;
   text-decoration: none;
